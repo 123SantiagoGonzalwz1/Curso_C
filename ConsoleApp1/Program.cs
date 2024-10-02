@@ -106,8 +106,42 @@ for (int i = 0; i < 5; i++)
 Console.WriteLine("Elemento con index 2 es: " + array[2]); */
 
 // Crear y mostrar una matriz de enteros
-int[] array = [1,23,54,5,12];
+/* int[] array = [1,23,54,5,12];
 for (int i = 0; i < 5; i++)
 {
     Console.WriteLine("Elemento con index " + i + " es: " + array[i]);
 }
+ */
+
+/* Escribir un programa que cuente cuántos números
+entre 1 y 100 son divisible por 3 sin dejar resto. */
+/* 
+int count = 0;
+
+for (int i = 1; i <= 100; i++)
+{
+    if(i  % 3 == 0) {
+        Console.WriteLine("Número divisible por 3: "+ i);
+        count++;
+    }
+
+}
+
+Console.WriteLine("El total de números divisible por 3 es: " + count); */
+
+// Calcular la suma de todos los elementos en una matriz de números enteros
+
+int[] numbers = new int[5];
+int sum = 0;
+
+Console.WriteLine("Ingrese 5 números enteros: ");
+
+for (int i = 0; i < numbers.Length; i++)
+{
+    numbers[i] = Convert.ToInt32(Console.ReadLine());
+    sum += numbers[i];
+}
+
+Console.WriteLine("La suma de los elementos del array es: " + sum);
+
+
