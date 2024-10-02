@@ -68,7 +68,7 @@ else {
     Console.WriteLine("El segundo número es mayor");
 } */
 
-// Escribir un programa para clasificar una edad determinada.
+/* // Escribir un programa para clasificar una edad determinada.
 Console.WriteLine("Ingrese su edad: ");
 int age = Convert.ToInt32(Console.ReadLine());
 
@@ -82,5 +82,32 @@ if (age < 12) {
     Console.WriteLine("Eres un adulto");
 } else {
     Console.WriteLine("Eres un adulto mayor");
+} */
+
+/* int[] array1 = [3,5,7,9]; // Matriz con valores
+int[] array2 = new int[4]; // Matriz vacía con un tamaño especifico
+
+Console.WriteLine("Array 1 value 0: " + array1[0]);
+Console.WriteLine("Array 2 value 0: " + array2[0]); */
+
+/* for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i);
 }
 
+Console.WriteLine("Ingrese sus valores: ");
+string[] array = new string[5];
+
+for (int i = 0; i < 5; i++)
+{
+    array[1] = Console.ReadLine();
+}
+
+Console.WriteLine("Elemento con index 2 es: " + array[2]); */
+
+// Crear y mostrar una matriz de enteros
+int[] array = [1,23,54,5,12];
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine("Elemento con index " + i + " es: " + array[i]);
+}
