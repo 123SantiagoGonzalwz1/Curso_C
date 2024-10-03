@@ -130,7 +130,7 @@ for (int i = 1; i <= 100; i++)
 Console.WriteLine("El total de números divisible por 3 es: " + count); */
 
 // Calcular la suma de todos los elementos en una matriz de números enteros
-
+/* 
 int[] numbers = new int[5];
 int sum = 0;
 
@@ -142,6 +142,60 @@ for (int i = 0; i < numbers.Length; i++)
     sum += numbers[i];
 }
 
-Console.WriteLine("La suma de los elementos del array es: " + sum);
+Console.WriteLine("La suma de los elementos del array es: " + sum); */
 
+/* Console.WriteLine("Por favor, ingresa un número: ");
 
+try
+{
+    string inputText = Console.ReadLine();
+    int convertNumber = Convert.ToInt32(inputText);
+    Console.WriteLine("Tu valor es: " + convertNumber);
+}
+catch (Exception e)
+{
+    Console.WriteLine("¡El valor ingresado no es valido! " + e.message);
+} */
+
+// Console.WriteLine("Por favor, ingresa el tamaño del cubo: ");
+// int bucketSize = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine("Por favor, ingresa el tamaño del barril: ");
+// int barrelSize = Convert.ToInt32(Console.ReadLine());
+
+// int waterInsideBarrel = 0;
+
+// while (waterInsideBarrel <= barrelSize)
+// {
+//     waterInsideBarrel = bucketSize + waterInsideBarrel;
+//     Console.WriteLine("Agua dentro del barril: " + waterInsideBarrel);
+// }
+
+/* for (int i = 0; i < 10; i++)
+{
+    if (i % 2 != 0)
+    {
+        Console.WriteLine("Continuar por: " + i);
+        continue;
+    }
+    Console.WriteLine(i);
+}
+
+for (int i = 0; i < 10; i++)
+{
+    if (i % 2 != 0)
+    {
+        Console.WriteLine("Descanso para: " + i);
+        break;
+    }
+    Console.WriteLine(i);
+} */
+
+// Crear un programa que imprima números del 1 al 10 usando un bucle while
+int numbers = 1;
+
+while (numbers  <= 10)
+{
+    Console.WriteLine("Numero: " + numbers);
+    numbers++;
+}
