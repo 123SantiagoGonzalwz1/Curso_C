@@ -411,7 +411,7 @@ TimeSpan s = TimeSpan.Parse(Console.ReadLine());
 Console.WriteLine(s); */
 
 // Crear un programa que convierta un número en el nombre de un mes usando la declaración switch-case
-Console.WriteLine("Por favor, ingresa un número del 1 al 12");
+/* Console.WriteLine("Por favor, ingresa un número del 1 al 12");
 int month = Convert.ToInt32(Console.ReadLine());
 
 switch (month)
@@ -455,4 +455,32 @@ switch (month)
     default:
         Console.WriteLine("¡Número no válido!");
         break;
+} */
+
+
+// Definir una enumeración para los días de la semana y permitir al usuario consultar las propiedades de esos días.
+/* Console.WriteLine("Ingrese un día de la semana: ");
+string dayWeek = Console.ReadLine();
+
+DiasDeLaSemana day = Enum.Parse<DiasDeLaSemana>(dayWeek);
+
+// Utilice un switch-case para imprimir si el día es entre semana o fin de semana
+switch (day) {
+    case DiasDeLaSemana.Sabado:
+    case DiasDeLaSemana.Domingo:
+        Console.WriteLine($"{day} es un día del fin de semana.");
+        break;
+    default:
+        Console.WriteLine($"{day} es un día entre la semana.");
+        break;
 }
+
+
+enum DiasDeLaSemana { Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo } */
+
+// Escribir un programa que imprima la fecha y hora actuales y luego calcule cuál será la fecha y la hora dentro de 100horas.
+/* DateTime fechaActual = DateTime.Now;
+Console.WriteLine("Hora y fecha actual: " + fechaActual.ToString());
+
+DateTime agregarHora = fechaActual.AddHours(100);
+Console.WriteLine("Hora y fecha en 100 horas: " + agregarHora.ToString()); */
