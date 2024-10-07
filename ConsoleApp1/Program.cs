@@ -483,4 +483,4 @@ enum DiasDeLaSemana { Lunes, Martes, Miercoles, Jueves, Viernes, Sabado, Domingo
 Console.WriteLine("Hora y fecha actual: " + fechaActual.ToString());
 
 DateTime agregarHora = fechaActual.AddHours(100);
-Console.WriteLine("Hora y fecha en 100 horas: " + agregarHora.ToString()); */
+Console.WriteLine("Hora y fecha en 100 horas: " + agregarHora.ToString(8i)); */
