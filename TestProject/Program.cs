@@ -239,7 +239,7 @@ Console.WriteLine(newMessage);
 Console.WriteLine($"'o' appears {letterCount} times."); */
 
 // Student Grading
-using System;
+/* using System;
 
 // initialize variables - graded assignments
 int examAssignments = 5;
@@ -385,3 +385,128 @@ foreach (string name in studentNames)
 
 Console.WriteLine("Press the Enter key to continue");
 Console.ReadLine();
+ */
+
+/*
+This C# console application is designed to:
+- Use arrays to store student names and assignment scores.
+- Use a `foreach` statement to iterate through the student names as an outer program loop.
+- Use an `if` statement within the outer loop to identify the current student name and access that student's assignment scores.
+- Use a `foreach` statement within the outer loop to iterate though the assignment scores array and sum the values.
+- Use an algorithm within the outer loop to calculate the average exam score for each student.
+- Use an `if-elseif-else` construct within the outer loop to evaluate the average exam score and assign a letter grade automatically.
+- Integrate extra credit scores when calculating the student's final score and letter grade as follows:
+    - detects extra credit assignments based on the number of elements in the student's scores array.
+    - divides the values of extra credit assignments by 10 before adding extra credit scores to the sum of exam scores.
+- use the following report format to report student grades:
+
+    Student         Grade
+
+    Sophia:         92.2    A-
+    Andrew:         89.6    B+
+    Emma:           85.6    B
+    Logan:          91.2    A-
+*/
+int examAssignments = 5;
+
+string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
+
+int[] sophiaScores = new int[] { 90, 86, 87, 98, 100, 94, 90 };
+int[] andrewScores = new int[] { 92, 89, 81, 96, 90, 89 };
+int[] emmaScores = new int[] { 90, 85, 87, 98, 68, 89, 89, 89 };
+int[] loganScores = new int[] { 90, 95, 87, 88, 96, 96 };
+
+int[] studentScores = new int[10];
+
+string currentStudentLetterGrade = "";
+
+// Display the header row for scores/grades
+Console.Clear();
+Console.WriteLine("Student\t\tExam Score\tOverall Grade\tExtra Credit\n");
+
+foreach (string name in studentNames)
+{
+    string currentStudent = name;
+
+    if (currentStudent == "Sophia")
+        studentScores = sophiaScores;
+
+    else if (currentStudent == "Andrew")
+        studentScores = andrewScores;
+
+    else if (currentStudent == "Emma")
+        studentScores = emmaScores;
+
+    else if (currentStudent == "Logan")
+        studentScores = loganScores;
+
+    int sumAssignmentScores = 0;
+    int extraCreditScore = 0;  // Cambiado para manejar solo un crédito adicional
+
+    decimal currentStudentGrade = 0;
+    int gradedAssignments = 0;
+    decimal finalGrade = 0;
+    decimal extraCreditPoints = 0;
+
+    foreach (int score in studentScores)
+    {
+        gradedAssignments += 1;
+
+        // Sumar solo los exámenes (primeros 5 puntajes)
+        if (gradedAssignments <= examAssignments)
+        {
+            sumAssignmentScores += score;
+        }
+        else
+        {
+            // Solo el primer valor de crédito adicional
+            extraCreditScore = score;
+            break;  // Rompemos el loop aquí para evitar sumar más de un crédito
+        }
+    }
+
+    // Calcular el promedio de los exámenes
+    currentStudentGrade = (decimal)(sumAssignmentScores) / examAssignments;
+
+    // Calcular la puntuación final con el crédito adicional (10%)
+    finalGrade = (sumAssignmentScores + (extraCreditScore * 0.10M)) / examAssignments;
+
+    // Calcular los puntos de crédito adicionales ajustados
+    extraCreditPoints = extraCreditScore * 0.10M;
+
+    // Asignar la calificación en letras basada en `finalGrade`
+    if (finalGrade >= 97)
+        currentStudentLetterGrade = "A+";
+    else if (finalGrade >= 93)
+        currentStudentLetterGrade = "A";
+    else if (finalGrade >= 90)
+        currentStudentLetterGrade = "A-";
+    else if (finalGrade >= 87)
+        currentStudentLetterGrade = "B+";
+    else if (finalGrade >= 83)
+        currentStudentLetterGrade = "B";
+    else if (finalGrade >= 80)
+        currentStudentLetterGrade = "B-";
+    else if (finalGrade >= 77)
+        currentStudentLetterGrade = "C+";
+    else if (finalGrade >= 73)
+        currentStudentLetterGrade = "C";
+    else if (finalGrade >= 70)
+        currentStudentLetterGrade = "C-";
+    else if (finalGrade >= 67)
+        currentStudentLetterGrade = "D+";
+    else if (finalGrade >= 63)
+        currentStudentLetterGrade = "D";
+    else if (finalGrade >= 60)
+        currentStudentLetterGrade = "D-";
+    else
+        currentStudentLetterGrade = "F";
+
+    // Mostrar los resultados corregidos
+    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade:F1}\t\t{finalGrade:F2}\t{currentStudentLetterGrade}\t{extraCreditScore} ({extraCreditPoints:F2} pts)");
+}
+
+// Mantener la consola abierta para ver los resultados
+Console.WriteLine("\n\rPress the Enter key to continue");
+Console.ReadLine();
+
