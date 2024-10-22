@@ -1,4 +1,4 @@
-﻿using System;
+﻿/* using System;
 using System.IO;
 
 // the ourAnimals array will store the following: 
@@ -366,8 +366,76 @@ do
             break;
 
         case "4":
+            bool allNicknameDataValid = true;
+
             // Ensure animal nicknames and personality descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    string currentNickname = ourAnimals[i, 3].Replace("Nickname: ", "").Trim();
+                    string currentPersonalityDescription = ourAnimals[i, 5].Replace("Personality: ", "").Trim();
+
+                    // Verificar si el apodo o la descripción de la personalidad está incompleta
+                    if (string.IsNullOrWhiteSpace(currentNickname) || string.IsNullOrWhiteSpace(currentPersonalityDescription))
+                    {
+                        Console.WriteLine($"Pet {ourAnimals[i, 0]} is  missing nickname or personality data.");
+                        allNicknameDataValid = false;
+
+                        // Si falta el apodo
+                        if (string.IsNullOrWhiteSpace(currentNickname))
+                        {
+                            bool  validNickname = false;
+                            while (!validNickname)
+                            {
+                                Console.WriteLine("Enter the correct nickname for this pet: ");
+                                string newNickname = Console.ReadLine();
+
+                                // Validar que el apodo no sea nulo o vacío
+                                if (!string.IsNullOrWhiteSpace(newNickname) && newNickname.Length > 0)
+                                {
+                                    ourAnimals[i, 3] = "Nickname: " + newNickname;
+                                    validNickname = true;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Invalid nickname. It cannot be null or empty.");
+                                }
+
+                            }
+
+                        }
+
+                        // Si falta la descripción de la personalidad
+                        if (string.IsNullOrWhiteSpace(currentPersonalityDescription))
+                        {
+                            bool validPersonalityDescription = false;
+                            while (!validPersonalityDescription)
+                            {
+                                Console.WriteLine("Enter the personality description for this pet: ");
+                                string newPersonalityDescription = Console.ReadLine();
+
+                                // Validar que la descripción no sea nula o vacía
+                                if (!string.IsNullOrWhiteSpace(newPersonalityDescription) && newPersonalityDescription.Length > 0)
+                                {
+                                    ourAnimals[i, 5] = "Personality: " + newPersonalityDescription;
+                                    validPersonalityDescription = true;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Invalid personality description. It cannot be null or empty.");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            if (allNicknameDataValid)
+            {
+                Console.WriteLine("Nickname and personality description fields are complete for all pets.");
+            }
+
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
@@ -405,3 +473,40 @@ do
     }
 
 } while (menuSelection != "exit");
+ */
+
+// Tipos de datos
+/* Console.WriteLine("Signed integral types: ");
+
+Console.WriteLine($"sbyte : {sbyte.MinValue} to {sbyte.MaxValue}");
+Console.WriteLine($"short : {short.MinValue} to {short.MaxValue}");
+Console.WriteLine($"int : {int.MinValue} to {int.MaxValue}");
+Console.WriteLine($"long : {long.MinValue} to {long.MaxValue}"); */
+
+/* Console.WriteLine("");
+Console.WriteLine("Unsigned integral types: ");
+
+Console.WriteLine($"byte : {byte.MinValue} to {byte.MaxValue}");
+Console.WriteLine($"ushort : {ushort.MinValue} to {ushort.MaxValue}");
+Console.WriteLine($"uint : {uint.MinValue} to {uint.MaxValue}");
+Console.WriteLine($"ulong : {ulong.MinValue} to {ulong.MaxValue}"); */
+
+// Punto flotante
+/* Console.WriteLine("");
+Console.WriteLine("Floating point types: ");
+
+Console.WriteLine($"float : {float.MinValue} to {float.MaxValue} (with ~6-9 digits of precision)");
+Console.WriteLine($"double : {double.MinValue} to {double.MaxValue} (with ~15-17 digits of precision)");
+Console.WriteLine($"decimal: {decimal.MinValue} to {decimal.MaxValue} (with 28-29 digits of precision)"); */
+
+// Variable de tipo de referencia
+// int[] data; // Referencia nula
+// Instancia
+// data = new int[3];
+
+// Más simplificado
+int[] data = new int[3];
+
+string shortenedString = "Hello World!";
+Console.WriteLine(shortenedString);
+
