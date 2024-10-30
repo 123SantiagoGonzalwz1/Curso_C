@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleApp2")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Metodos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ca400ccf853176597484e234f713a4d1802502d")]
-[assembly: System.Reflection.AssemblyProductAttribute("ConsoleApp2")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ConsoleApp2")]
+[assembly: System.Reflection.AssemblyProductAttribute("Metodos")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Metodos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
