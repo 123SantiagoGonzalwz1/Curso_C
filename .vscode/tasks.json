@@ -2,40 +2,16 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "buildDepuracion",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Curso_C.sln",
+                "${workspaceFolder}/Depuracion/Depuracion.csproj",
                 "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+                "/consoleloggerparameters:NoSummary;"
             ],
             "problemMatcher": "$msCompile"
         },
-        {
-            "label": "publish",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "publish",
-                "${workspaceFolder}/Curso_C.sln",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary;ForceNoAlign"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "watch",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "watch",
-                "run",
-                "--project",
-                "${workspaceFolder}/Curso_C.sln"
-            ],
-            "problemMatcher": "$msCompile"
-        }
     ]
 }
