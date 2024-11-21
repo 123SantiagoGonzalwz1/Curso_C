@@ -13,6 +13,17 @@
             "stopAtEntry": false
         },
         {
+            "name": "Launch Exceptions",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildExceptions",
+            "program": "${workspaceFolder}/Exceptions/bin/Debug/net9.0/Exceptions.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Exceptions",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"

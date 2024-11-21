@@ -13,5 +13,17 @@
             ],
             "problemMatcher": "$msCompile"
         },
+        {
+            "label": "buildExceptions",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Exceptions/Exceptions.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;"
+            ],
+            "problemMatcher": "$msCompile"
+        }
     ]
 }
