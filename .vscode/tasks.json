@@ -2,6 +2,18 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "buildDesafioExcepciones",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/DesafioExcepciones/DesafioExcepciones.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "buildDepuracion",
             "command": "dotnet",
             "type": "process",

@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch DesafioExcepciones",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildDesafioExcepciones",
+            "program": "${workspaceFolder}/DesafioExcepciones/bin/Debug/net9.0/DesafioExcepciones.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DesafioExcepciones",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
             "name": "Launch Depuration",
             "type": "coreclr",
             "request": "launch",
