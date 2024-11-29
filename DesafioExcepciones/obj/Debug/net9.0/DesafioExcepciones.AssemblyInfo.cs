@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DesafioExcepciones")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af44b0534a2be2d64daf99ec15704e98b2fcac30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b2b9b323e1c61cdc19771feb8ce3426e5296b41")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesafioExcepciones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesafioExcepciones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
