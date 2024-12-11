@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Debuggin",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildDebuggin",
+            "program": "${workspaceFolder}/DotNetDebuggin/bin/Debug/net9.0/DotNetDebuggin.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DotNetDebuggin",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
             "name": "Launch DesafioExcepciones",
             "type": "coreclr",
             "request": "launch",

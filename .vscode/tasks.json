@@ -2,6 +2,18 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "buildDebuggin",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/DotNetDebuggin/DotNetDebuggin.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "buildDesafioExcepciones",
             "command": "dotnet",
             "type": "process",
