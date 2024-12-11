@@ -1,0 +1,6 @@
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\obj\Debug\net8.0\Curso_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\obj\Debug\net8.0\Curso_C.AssemblyInfoInputs.cache
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\obj\Debug\net8.0\Curso_C.AssemblyInfo.cs
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\obj\Debug\net8.0\Curso_C.csproj.CoreCompileInputs.cache
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\obj\Debug\net8.0\Curso_C.sourcelink.json
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\obj\Debug\net8.0\Curso_C.csproj.AssemblyReference.cache

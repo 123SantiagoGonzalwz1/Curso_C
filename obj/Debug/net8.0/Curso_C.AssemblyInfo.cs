@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Desafio")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Curso_C")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+131a7a7ca78897e7b37fd46a06b304e3cc81e450")]
-[assembly: System.Reflection.AssemblyProductAttribute("Desafio")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Desafio")]
+[assembly: System.Reflection.AssemblyProductAttribute("Curso_C")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Curso_C")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
