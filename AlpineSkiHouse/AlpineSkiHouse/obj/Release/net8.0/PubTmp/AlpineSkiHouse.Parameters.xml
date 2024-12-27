@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="AlpineSkiHouse20241227154224" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Santiago\\Documents\\01\ Sena\\01\ Tareas\ Ofimática\\GitHub\\Curso_C\\AlpineSkiHouse\\AlpineSkiHouse\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
