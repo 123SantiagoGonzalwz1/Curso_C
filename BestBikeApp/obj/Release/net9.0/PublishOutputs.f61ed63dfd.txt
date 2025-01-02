@@ -1,0 +1,7 @@
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\BestBikeApp\pub\BestBikeApp.exe
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\BestBikeApp\pub\appsettings.Development.json
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\BestBikeApp\pub\appsettings.json
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\BestBikeApp\pub\BestBikeApp.dll
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\BestBikeApp\pub\BestBikeApp.deps.json
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\BestBikeApp\pub\BestBikeApp.runtimeconfig.json
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\BestBikeApp\pub\BestBikeApp.pdb
