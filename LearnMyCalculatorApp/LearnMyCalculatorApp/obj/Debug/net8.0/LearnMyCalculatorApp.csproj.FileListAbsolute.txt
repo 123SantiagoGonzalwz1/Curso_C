@@ -1,0 +1,4 @@
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\LearnMyCalculatorApp\LearnMyCalculatorApp\obj\Debug\net8.0\LearnMyCalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\LearnMyCalculatorApp\LearnMyCalculatorApp\obj\Debug\net8.0\LearnMyCalculatorApp.AssemblyInfoInputs.cache
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\LearnMyCalculatorApp\LearnMyCalculatorApp\obj\Debug\net8.0\LearnMyCalculatorApp.AssemblyInfo.cs
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\LearnMyCalculatorApp\LearnMyCalculatorApp\obj\Debug\net8.0\LearnMyCalculatorApp.csproj.CoreCompileInputs.cache

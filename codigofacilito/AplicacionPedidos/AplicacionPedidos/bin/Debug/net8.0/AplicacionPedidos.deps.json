@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AplicacionPedidos/1.0.0": {
+        "dependencies": {
+          "libPedidos": "1.0.0"
+        },
+        "runtime": {
+          "AplicacionPedidos.dll": {}
+        }
+      },
+      "libPedidos/1.0.0": {
+        "runtime": {
+          "libPedidos.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AplicacionPedidos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "libPedidos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

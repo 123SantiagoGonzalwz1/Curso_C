@@ -1,0 +1,6 @@
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\LearnMyCalculatorApp\LearnMyCalculatorApp.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_LearnMyCalculatorApp.Tests
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\LearnMyCalculatorApp\LearnMyCalculatorApp.Tests\obj\Debug\net8.0\LearnMyCalculatorApp.Tests.csproj.AssemblyReference.cache
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\LearnMyCalculatorApp\LearnMyCalculatorApp.Tests\obj\Debug\net8.0\LearnMyCalculatorApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\LearnMyCalculatorApp\LearnMyCalculatorApp.Tests\obj\Debug\net8.0\LearnMyCalculatorApp.Tests.AssemblyInfoInputs.cache
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\LearnMyCalculatorApp\LearnMyCalculatorApp.Tests\obj\Debug\net8.0\LearnMyCalculatorApp.Tests.AssemblyInfo.cs
+C:\Users\Santiago\Documents\01 Sena\01 Tareas Ofimática\GitHub\Curso_C\LearnMyCalculatorApp\LearnMyCalculatorApp.Tests\obj\Debug\net8.0\LearnMyCalculatorApp.Tests.csproj.CoreCompileInputs.cache

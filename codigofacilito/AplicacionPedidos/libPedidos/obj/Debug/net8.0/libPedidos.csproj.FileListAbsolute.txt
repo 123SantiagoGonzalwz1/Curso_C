@@ -1,0 +1,11 @@
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\obj\Debug\net8.0\libPedidos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\obj\Debug\net8.0\libPedidos.AssemblyInfoInputs.cache
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\obj\Debug\net8.0\libPedidos.AssemblyInfo.cs
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\obj\Debug\net8.0\libPedidos.csproj.CoreCompileInputs.cache
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\bin\Debug\net8.0\libPedidos.deps.json
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\bin\Debug\net8.0\libPedidos.dll
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\bin\Debug\net8.0\libPedidos.pdb
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\obj\Debug\net8.0\libPedidos.dll
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\obj\Debug\net8.0\refint\libPedidos.dll
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\obj\Debug\net8.0\libPedidos.pdb
+C:\Users\Santiago\source\repos\codigofacilito\AplicacionPedidos\libPedidos\obj\Debug\net8.0\ref\libPedidos.dll

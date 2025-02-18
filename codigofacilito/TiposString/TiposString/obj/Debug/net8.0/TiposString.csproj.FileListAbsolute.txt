@@ -1,0 +1,14 @@
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\bin\Debug\net8.0\TiposString.exe
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\bin\Debug\net8.0\TiposString.deps.json
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\bin\Debug\net8.0\TiposString.runtimeconfig.json
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\bin\Debug\net8.0\TiposString.dll
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\bin\Debug\net8.0\TiposString.pdb
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\obj\Debug\net8.0\TiposString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\obj\Debug\net8.0\TiposString.AssemblyInfoInputs.cache
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\obj\Debug\net8.0\TiposString.AssemblyInfo.cs
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\obj\Debug\net8.0\TiposString.csproj.CoreCompileInputs.cache
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\obj\Debug\net8.0\TiposString.dll
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\obj\Debug\net8.0\refint\TiposString.dll
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\obj\Debug\net8.0\TiposString.pdb
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\obj\Debug\net8.0\TiposString.genruntimeconfig.cache
+C:\Users\Santiago\source\repos\codigofacilito\TiposString\TiposString\obj\Debug\net8.0\ref\TiposString.dll
