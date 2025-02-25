@@ -1,0 +1,15 @@
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\bin\Debug\net8.0\09Eventos.exe
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\bin\Debug\net8.0\09Eventos.deps.json
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\bin\Debug\net8.0\09Eventos.runtimeconfig.json
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\bin\Debug\net8.0\09Eventos.dll
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\bin\Debug\net8.0\09Eventos.pdb
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\obj\Debug\net8.0\09Eventos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\obj\Debug\net8.0\09Eventos.AssemblyInfoInputs.cache
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\obj\Debug\net8.0\09Eventos.AssemblyInfo.cs
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\obj\Debug\net8.0\09Eventos.csproj.CoreCompileInputs.cache
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\obj\Debug\net8.0\09Eventos.sourcelink.json
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\obj\Debug\net8.0\09Eventos.dll
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\obj\Debug\net8.0\refint\09Eventos.dll
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\obj\Debug\net8.0\09Eventos.pdb
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\obj\Debug\net8.0\09Eventos.genruntimeconfig.cache
+C:\Users\Santiago\Documents\github-proyectos\proyectos\github\curso-c\codigofacilito\09Eventos\09Eventos\obj\Debug\net8.0\ref\09Eventos.dll
