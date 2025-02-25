@@ -16,17 +16,16 @@ namespace libPedidos
         public override string ToString()
         {
             return base.ToString() +
-                $"Precio público: {PrecioPublico.ToString("C")}.\n" +
-                $"Precio mayoreo: {PrecioMayoreo.ToString("C")}.\n" +
-                $"Porcentaje IVA: {PorcentajeIva.ToString()}%.\n" +
-                $"Porcentaje IEPS: {PorcentajeIeps.ToString()}%.\n";
+                $"Precio público: {PrecioPublico:C}.\n" +
+                $"Precio mayoreo: {PrecioMayoreo:C}.\n" +
+                $"Porcentaje IVA: {PorcentajeIva}%.\n" +
+                $"Porcentaje IEPS: {PorcentajeIeps}%.\n";
         }
 
         public decimal DesglosaImpuestos(recMontosImpuestos Montos)
         {
-            decimal resultado = 0;
             recImpuestos Impuestos = new (PorcentajeIva, PorcentajeIeps);
-            resultado = CalculoPrecios.DesglosaImpuestos(PrecioPublico, Impuestos, Montos);
+            decimal resultado = CalculoPrecios.DesglosaImpuestos(PrecioPublico, Impuestos, Montos);
 
             return resultado;
         }
